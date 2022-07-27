@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    max-width: 100%;
+}
+.header, .about, .content, footer{
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,li{
+    font-family: 'Noto Sans TC', 'Barlow Condensed',sans-serif;;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+}
+.logo{
+    width: 100px;
+}
+.underLine{
+    color:#f83205;
+    height: 6px !important;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.material-symbols-outlined {
+    color: #f83205;
+    font-size: 50px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.down {
+    position: relative;
+    -webkit-animation-name: down;
+            animation-name: down;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite; }
+  
+  @-webkit-keyframes down {
+    from {
+      bottom: 30px; }
+    to {
+      bottom: -50px; } }
+  
+  @keyframes down {
+    from {
+      bottom: 30px; }
+    to {
+      bottom: -50px; } }
+
+.aboutText{
+    margin-left: 20px;
+    max-width: 50%;
+    color: white;
+}
+.individualPicture{
+    max-width: 250px;
+    max-height: 250px;
+}
+.skill{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.skillContent{
+    margin: 0 auto;
+}
+
+.parallax{
+    background-image: url("https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    opacity: 0.9;
+    min-height: 500px; 
+    /* 沒內文時可以看到的最小高度 */
+
+    background-attachment: fixed; /* 固定圖像 */
+    background-position: center center; /* 圖像置中 */
+    background-size: cover;
+}
+.card-body{
+    position: relative;
+}
+.card-body div{
+    margin-bottom: 50px;
+}
+.linkBtn{
+    position: absolute;
+    right: 22%;
+    bottom:10px;
+}
+.card-text{
+    text-align: left;
+    font-size: 18px;
+}

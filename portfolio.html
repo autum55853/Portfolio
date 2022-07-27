@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amber's Resume</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Noto+Sans+TC:wght@300&display=swap"
+        rel="stylesheet">
+    <!--Material Icon-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style/all.css">
+</head>
+
+<body>
+    <div class="container container-fluid">
+        <div class="row bg-secondary">
+            <div class="header col-11  d-flex justify-content-between align-items-center p-3">
+                <img src="img/_Logo.jpg" alt="Amber" class="rounded-pill logo">
+                <ul class="d-flex justify-content-between">
+                    <li class="mx-4">
+                        <a href="#" class=" fs-5 hvr-pulse-grow">
+                            <span class="material-icons ">
+                                face
+                            </span>About
+                        </a>
+                    </li>
+                    <li class="mx-4">
+                        <a href="#skill" class=" fs-5 hvr-pulse-grow">
+                            <span class="material-icons ">
+                                tips_and_updates
+                            </span>
+                            Skill
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#works" class="fs-5 hvr-pulse-grow">
+                            <span class="material-icons ">
+                                work_outline
+                            </span>
+                            Works
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="content parallax   text-center">
+                <div class="col-12">
+                    <h3 class="mt-4">About</h3>
+                    <hr class="underLine">
+                </div>
+                <div class="about my-5 col-10  d-flex justify-content-between">
+                    <div>
+                        <img src="img/IMG_20160603_071914.jpg" alt="" class="rounded-circle individualPicture">
+                        <h2 class="py-3 ">Amber Lin</h2>
+                    </div>
+                    <div class="aboutText text-start ">
+                        <p class="lh-lg">
+                            <strong>為何想轉職? </strong><br>
+                            腦海不時出現另一句問自己，我希望自己五年後還是跟現在一樣嗎?「如果我不給試著給自己改變的機會，未來的我身上負擔更多責任時，改變的機會成本會更大」<br>
+                            就像「有些事現在不做，一輩子都不會做了」
+                            「你不一定要很厲害才能開始， 你一定要開始，才能很厲害」
+
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-column">
+                    <span class="material-symbols-outlined down">
+                        keyboard_arrow_down
+                    </span>
+                </div>
+                <div class="skill bg-primary py-4">
+                    <div class="py-2" id="skill">
+                        <h3 class="my-3 text-secondary">Skill</h3>
+                        <hr class="underLine">
+                    </div>
+                    <div class="skillContent py-3 col-10 d-flex justify-content-between" >
+                        <div class="card bg-primary border-0" style="width: 18rem;">
+                            <div class="card-body ">
+                                <h5 class="card-title">WebLayout</h5>
+                                <ul class="text-start">
+                                    <li>熟悉SCSS用法</li>
+                                    <li>能使用BS5開發專案</li>
+                                    <li>能依照設計稿刻出版型</li>
+                                    <li>建立RWD響應式頁面</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card bg-primary border-0" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript</h5>
+                                <ul class="text-start">
+                                    <li>了解並使用ES6語言</li>
+                                    <li>透過AJAX / JSON 串接第三方API</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card bg-primary border-0" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Other</h5>
+                                <ul class="text-start">
+                                    <li>Git操作流程</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-3" id="works">
+                    <h3 class="my-3">Works</h3>
+                    <hr class="underLine">
+                </div>
+                <div class="work mb-4 col-12">
+                    <div class="d-flex justify-content-around">
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://autum55853.github.io/RWD-work/" target="_blank" >
+                                <img src="https://github.com/autum55853/RWD-work/blob/master/assets/image/webLayout.jpg?raw=true" class="card-img-top"  alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div>
+                                    <h5 class="card-title">WebLayout</h5>
+                                    <p class="card-text">具有RWD效果(格線系統 or 客製化手刻)
+                                        <br>
+                                        使用的套件:<br>
+                                        -bootstrap<br>
+                                        -jQuery: 右下角固定的按鈕, 點擊後可直接將頁面移至頂端<br>
+                                        -swiper: banner與產品圖片輪播<br>
+                                        -hover</p>
+                                </div>
+                                <a href="https://github.com/autum55853/RWD-work" target="_blank" class="linkBtn btn btn-primary px-5 hvr-shutter-out-vertical">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <a href="https://autum55853.github.io/KaohsiungAttractions/" target="_blank" >
+                                <img src="https://github.com/autum55853/KaohsiungAttractions/blob/main/assets/images/KaohsiungAttractions.jpg?raw=true" class="card-img-top"  alt="...">
+                            </a>
+                            <div class="card-body">
+                                <div>
+                                    <h5 class="card-title">高雄旅遊景點(六角學院JS學徒最終作業)</h5>
+                                    <p class="card-text">串接政府開放平台API<br>
+                                        下拉選單變動後,下方內容會依選單結果做變動
+                                    </p>
+                                </div>
+                                <a href="https://github.com/autum55853/KaohsiungAttractions" target="_blank" class="linkBtn btn btn-primary px-5 hvr-shutter-out-vertical">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <a href="#" target="_blank" >
+                                <img src="https://images.unsplash.com/photo-1564226803380-91139fdcb4d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="card-img-top"  alt="...">
+                            </a>
+                            <div class="card-body">
+                                <h5 class="card-title">(待完成)全台羽球場地查詢</h5>
+                                <p class="card-text">Vue JS Framework</p>
+                                <a href="#" class="linkBtn btn btn-primary px-5 hvr-shutter-out-vertical">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-success">
+        <p class="p-5 text-center">Copyright © Amber All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
